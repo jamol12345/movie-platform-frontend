@@ -1,0 +1,48 @@
+.nav_container {
+  width: 100%;
+  height: 90px;
+  position: relative;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  background-color:#686DE0;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.nav_container > a {
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-decoration: none;
+  color: white;
+}
+.nav_links {
+  display: flex;
+  list-style: none;
+  gap: 70px;
+  align-items: center;
+  text-decoration: none;
+  width: 330px;
+  margin: 0 auto;
+}
+.nav_links > a > button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: lightyellow;
+  font-style: oblique;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav_links > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav_signup {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

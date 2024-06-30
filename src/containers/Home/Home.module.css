@@ -1,0 +1,12 @@
+.home_container {
+  width: 100%;
+  background-color: #5e608b;
+}
+.home_holder {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

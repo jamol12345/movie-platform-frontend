@@ -1,0 +1,51 @@
+.bestFilm_container {
+  margin-top: 200px;
+  width: 100%;
+  height: 713px;
+  margin-bottom: 100px;
+}
+.bestFilm_holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.wideCard {
+  box-shadow: 3px 0.3px 12px azure;
+  width: 1172px;
+  height: 807px;
+  background-color: #2c2c54;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.bestFilm_holder>h1{
+    font-size: 3rem;
+    color: white;
+}
+
+.image {
+  width: 976px;
+  height: 460px;
+  background-image: url("https://ntvb.tmsimg.com/assets/p11710311_b_h11_aa.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.wideCard > button {
+  width: 924.67px;
+  height: 60px;
+  background-color: #686de0;
+  color: #2c2c54;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  border: none;
+}
